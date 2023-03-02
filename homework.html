@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgb(253, 247, 240);
+        }
+        .first{
+            display: flex;
+            justify-content:space-between;
+            text-align: center;
+            border-bottom: 2px solid white;
+            margin-bottom: 10px;
+        }
+        .menu{
+           text-align: right;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li:hover{
+            transition: all .3s ease-in;
+            color:white;
+        }
+        .second{
+            background-image: url(./main_image.jpg);
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+        }
+        .icons{
+            height: 600px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            position: relative;
+        }
+        .icons img{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+        }
+        .icons img:hover{
+            transform: scale(1.5);
+            transition:all .2s ease-in;
+        }
+        .three{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            position: relative;
+        }
+        .three img{
+            width: 150px;
+            height: 70px;
+        }
+        .three h1{
+            color:white;
+            background-color:rgb(37, 35, 35);
+        }
+        .three div{
+            width: 22%;
+            background-color:white;
+            text-align: center;
+            color:rgb(139, 137, 137);
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div>
+             <h3>LOREM</h3>
+             <h3>RICH</h3>
+        </div>
+        <ul class="menu">
+            <li>HOME</li>
+            <li>PORTFOLIO</li>
+            <li>NEWS</li>
+            <li>BLOG</li>
+            <li>CONTACTS</li>
+        </ul>
+    </div>
+    <div class="second">
+        <div class="icons">
+             <div><img src="img1.jpg" alt="1"></div>
+             <div><img src="img2.jpg" alt="2"></div>
+             <div><img src="img3.jpg" alt="3"></div>
+             <div><img src="img4.jpg" alt="4"></div>
+             <div><img src="img5.jpg" alt="5"></div>
+        </div>
+    </div>
+    <div class="three">
+        <div >
+            <h1>NATURE</h1>
+            <img src="block1.jpg" alt="1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum blanditiis nihil optio deserunt eum natus, vero nostrum iste deleniti, eligendi totam suscipit unde perferendis. Architecto voluptatum magni id cum!</p>
+        </div>
+        <div>
+            <h1>FASHION</h1>
+            <img src="block2.jpg" alt="2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum blanditiis nihil optio deserunt eum natus, vero nostrum iste deleniti, eligendi totam suscipit unde perferendis. Architecto voluptatum magni id cum!</p>
+
+        </div>
+        <div>
+            <h1>LOVE STORY</h1>
+            <img src="block3.jpg" alt="3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum blanditiis nihil optio deserunt eum natus, vero nostrum iste deleniti, eligendi totam suscipit unde perferendis. Architecto voluptatum magni id cum!</p>
+
+        </div>
+        <div>
+            <h1>COMMERCIAL</h1>
+            <img src="block4.jpg" alt="4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum blanditiis nihil optio deserunt eum natus, vero nostrum iste deleniti, eligendi totam suscipit unde perferendis. Architecto voluptatum magni id cum!</p>
+
+        </div>
+    </div>
+</body>
+</html>
